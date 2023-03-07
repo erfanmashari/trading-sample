@@ -1,0 +1,431 @@
+body {
+  font-family: "IBM Plex Sans", "Manrope", PingFangSC-Regular, SF Pro Text,
+    SF Pro Icons, DIN, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+  border: none;
+}
+
+::-webkit-scrollbar-track {
+  border: none;
+  background: #fefefe;
+}
+
+::-webkit-scrollbar-thumb {
+  border: none;
+  border-radius: 4px;
+  background: #cecece;
+}
+
+.home-background {
+  background: #fefefe;
+}
+
+.header-title {
+  color: #4a4a4a;
+}
+
+.header {
+  color: #3a3d42;
+  font-family: "Manrope", sans-serif;
+}
+
+.coinex-icon {
+  width: 106px;
+  height: 30px;
+}
+
+.sign-up-button {
+  padding: 4px 24px;
+  background-color: #0ead98;
+}
+
+.border-gray-1 {
+  border: none;
+}
+
+.border-top-gray-1 {
+  border-top: none;
+}
+
+.border-right-gray-1 {
+  border-top: none;
+  border-right: none;
+}
+
+.border-bottom-gray-1 {
+  border-bottom: none;
+}
+
+.border-left-gray-1 {
+  border-top: none;
+  border-left: none;
+}
+
+.search-box {
+  background-color: #f6f6f6;
+}
+
+.search-icon {
+  color: #787d87;
+}
+
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #cfd0d3;
+}
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #cfd0d3;
+  opacity: 1;
+}
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #cfd0d3;
+  opacity: 1;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #cfd0d3;
+}
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #cfd0d3;
+}
+
+::placeholder {
+  /* Most modern browsers support this now. */
+  color: #cfd0d3;
+}
+
+.currency-price-navbar {
+  color: #828690;
+}
+
+.currency-price-navbar-all {
+  color: #0ead98;
+  background-color: #f6f6f4;
+}
+
+.star {
+  color: #e1e2e5;
+}
+
+.currency-price-table-market {
+  color: #46494d;
+}
+
+.currency-price-table-red {
+  color: #ea2531;
+}
+.currency-price-table-gray {
+  color: #1db29f;
+}
+
+.latest-execution-header {
+  color: #3a3d42;
+}
+
+.dark-gray {
+  color: #565656;
+}
+
+.header-price {
+  color: #0ead98;
+}
+
+.dark-gray-2 {
+  color: #707580;
+}
+
+.statistic-header-item {
+  color: #4ac1b1;
+}
+
+.percent-25 {
+  color: #26b5a2;
+  background-color: #ceeee9;
+}
+
+.percent-75 {
+  color: #ee505a;
+  background-color: #fad2d5;
+}
+
+.spot-trading-container {
+  height: 550px;
+}
+
+.spot-trading {
+  color: #0ead98;
+  border-bottom: 2px solid #0ead98;
+}
+
+.margin-trading {
+  color: #797d87;
+}
+
+.spot-div-button {
+  color: #888d95;
+  background-color: #f0f1f2;
+}
+
+.spot-div-button-clicked {
+  color: #0ead98;
+  background-color: #f0f1f2;
+}
+
+.info-icon-color {
+  color: #888d95;
+}
+
+.chart-time {
+  color: #b4b7bd;
+}
+
+.chart-type {
+  color: #878787;
+}
+
+.chart-type-bg {
+  background-color: #d6e0e9;
+}
+
+.progress-line-container {
+  position: absolute;
+  top: 4px;
+  right: 0;
+  padding: 0 20px;
+}
+
+.circle-line-through {
+  border: 1px solid #d4d5d8;
+}
+
+.progress-line {
+  border: 1px solid #0ead98;
+}
+
+.circle-btn {
+  font-size: 22px;
+  position: relative;
+  /* top: -6.5px; */
+  /* left: 17px; */
+  background: #fefefe;
+  z-index: 20;
+}
+
+.small-screen-header-icons {
+  color: #909494;
+}
+
+.chart-icons {
+  color: #565656;
+}
+
+.spot-login {
+  color: #0ead98;
+}
+
+.spot-input {
+  width: 100%;
+  height: 42px;
+  padding: 0 20px;
+}
+
+.w-30-percent {
+  width: 25%;
+}
+
+.w-70-percent {
+  width: 100%;
+}
+
+.total-amount-list {
+  height: 136px;
+}
+
+.buy {
+  color: #fff;
+  background-color: #0ead98;
+}
+
+.sell {
+  color: #fff;
+  background-color: #db5541;
+}
+
+.nav-right-btn:hover {
+  color: #0ead98;
+}
+
+.nav-right-btn div {
+  z-index: 150;
+}
+
+.nav-right-btn-span {
+  width: max-content;
+  flex-direction: column;
+  position: absolute;
+  border-radius: 16px;
+}
+
+.nav-right-btn-ul {
+  width: max-content;
+  padding: 8px 28px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 28px;
+  left: -16px;
+  gap: 13px;
+  color: #3a3d42;
+  background-color: #fefefe;
+  border-radius: 16px;
+  box-shadow: 0 0 10px #c9c9c9;
+  z-index: 100;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+}
+
+.vip {
+  width: 40px;
+  height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  color: #fff;
+  background: linear-gradient(93.4deg, #fee9c7 3.44%, #f7c076 96.93%);
+}
+
+.unverified {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+  color: #aeb0b3;
+  font-size: 12px;
+}
+
+.vector {
+  width: 12px;
+  height: 12px;
+}
+
+.account-gmail {
+  color: #161719;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.account-li {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  font-size: 14px;
+  gap: 8px;
+}
+
+.progress-circle {
+  position: absolute;
+  top: -9px;
+  left: 0;
+  color: #0ead98;
+  z-index: 100;
+}
+
+@media only screen and (min-width: 768px) {
+  .border-gray-1 {
+    border: 1px solid #d4d5d8;
+  }
+
+  .border-top-gray-1 {
+    border-top: 1px solid #d4d5d8;
+  }
+
+  .border-right-gray-1 {
+    border-top: 1px solid #d4d5d8;
+    border-right: 1px solid #d4d5d8;
+  }
+
+  .border-bottom-gray-1 {
+    border-bottom: 1px solid #d4d5d8;
+  }
+
+  .border-left-gray-1 {
+    border-top: 1px solid #d4d5d8;
+    border-left: 1px solid #d4d5d8;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .w-30-percent {
+    width: 29%;
+  }
+
+  .w-70-percent {
+    width: 71%;
+  }
+
+  .total-amount-list {
+    height: 400px;
+  }
+
+  .coinex-icon {
+    width: 122px;
+    height: 35px;
+  }
+
+  .spot-input {
+    width: 100%;
+    height: 42px;
+    padding: 0 20px;
+  }
+
+  .border-right-gray-1 {
+    border-top: none;
+    border-right: 1px solid #d4d5d8;
+  }
+
+  .border-left-gray-1 {
+    border-top: none;
+    border-left: 1px solid #d4d5d8;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .w-30-percent {
+    width: 24%;
+  }
+
+  .w-70-percent {
+    width: 76%;
+  }
+
+  .spot-input {
+    width: 50%;
+    height: 42px;
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (min-width: 1536px) {
+  .w-30-percent {
+    width: 19.5%;
+  }
+
+  .w-70-percent {
+    width: 80.5%;
+  }
+}
